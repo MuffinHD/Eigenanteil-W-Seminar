@@ -16,5 +16,5 @@ n, x, y, z, dt0, dn
 5, 4177957.336875097, 855802.885977589, 4727436.790653496, 1.6088750940372248E-7, 1717.846202269469
 
 Endgültige berechnete Position (x, y, z): [4177957.336875097, 855802.885977589, 4727436.790653496]
-Endgültige berechnete Position (phi, lambda, h): [0.0, 0.0, 0.0]
+Endgültige berechnete Position (phi, lambda, h): [47.945804415038026, 11.57619811001332, -4181.744221453555]
 Endgültiger berechneter Fehler Empfängeruhr: 1.6088750940372248E-7

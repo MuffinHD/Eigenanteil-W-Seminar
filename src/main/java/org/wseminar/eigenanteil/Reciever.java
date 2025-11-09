@@ -106,6 +106,7 @@ public class Reciever {
             }
 
             writer.write("\nEndgültige berechnete Position (x, y, z): " + Arrays.toString(posCart));
+            calcPolar();
             writer.write("\nEndgültige berechnete Position (phi, lambda, h): " + Arrays.toString(getPolar()));
             writer.write("\nEndgültiger berechneter Fehler Empfängeruhr: " + iterations.getLast()[3]);
 
