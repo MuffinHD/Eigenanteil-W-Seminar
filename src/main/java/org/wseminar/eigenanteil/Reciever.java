@@ -71,8 +71,6 @@ public class Reciever {
 
             iterations.add(xnCopy);
             delta.add(change(step));
-
-            delta.add(change(step));
         }
 
         for (int i = 0; i < 3; i += 1) {
@@ -101,7 +99,7 @@ public class Reciever {
             writer.write("0, 0.0, 0.0, 0.0, 0.0, 1.0\n");
             for (int i = 0; i < iterations.size(); i += 1) {
                 double[] step_ = iterations.get(i);
-                double dn = delta.get(i + 1);
+                double dn = delta.get(i);
                 writer.write(i + 1 + ", " + step_[0] + ", " + step_[1] + ", " + step_[2] + ", " + step_[3] + ", " + dn + "\n");
             }
 
