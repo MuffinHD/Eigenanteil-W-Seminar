@@ -10,11 +10,17 @@ public class Calculation {
 
         Reciever rec = new Reciever();
 
-        //Beispieldaten von vier Satelliten
+        //Beispieldaten von vier Satelliten für München
         sats.add(new Satellite(24579064.322, 8946047.799, 4612095.599, 21947041.935));
         sats.add(new Satellite(-8536219.457, 14785165.803, 20346140.409, 24487215.189));
         sats.add(new Satellite(11500817.362, -19920000.000, -13279999.999, 28452219.402));
         sats.add(new Satellite(-8536219.457, -3106929.795, 24958236.008, 24220675.368));
+
+        //alternative Beispieldaten New York City
+        //sats.add(new Satellite(7983583.1956, 13305971.992, 21555674.628, 25902131.591));
+        //sats.add(new Satellite(-15967166.391, 10644777.594, 18362241.350, 27138869.939));
+        //sats.add(new Satellite(23947143.723, -2660793.747, 11175333.737, 23781501.189));
+        //sats.add(new Satellite(-5330958.614, -22656574.111, 12794300.674, 21072974.069));
 
         //Berechnung der Position und ausgabe der Endposition
         double[] pos = rec.calc_pos_rec(sats);
